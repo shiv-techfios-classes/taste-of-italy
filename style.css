@@ -1,0 +1,167 @@
+
+body{
+    font-family:Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+.hero{
+    height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1600&auto=format&fit=crop');
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+}
+
+.glass-nav{
+    background:rgba(0,0,0,0.35);
+    backdrop-filter:blur(10px);
+}
+
+.food-img{
+    height:260px;
+    object-fit:cover;
+}
+
+.food-card{
+    transition:0.3s;
+}
+
+.food-card:hover{
+    transform:translateY(-10px);
+}
+
+
+/* Navbar Styling */
+
+.glass-nav{
+
+    background:rgba(0,0,0,0.35);
+
+    backdrop-filter:blur(12px);
+
+    padding:15px 0;
+
+    transition:0.3s;
+}
+
+.navbar-brand{
+
+    letter-spacing:1px;
+}
+
+.nav-link{
+
+    color:#fff !important;
+
+    margin:0 12px;
+
+    font-weight:500;
+
+    transition:0.3s;
+}
+
+.nav-link:hover{
+
+    color:#ffb703 !important;
+}
+
+/* Search Box */
+
+/* Animated Search Box */
+/* SEARCH BOX */
+
+.search-box{
+
+    display:flex;
+    align-items:center;
+}
+
+/* FORCE CUSTOM STYLE */
+
+.custom-search-input{
+
+    width:220px !important;
+
+    border-radius:40px !important;
+
+    border:none !important;
+
+    padding:12px 22px !important;
+
+    background:rgba(255,255,255,0.95) !important;
+
+    color:#222 !important;
+
+    transition:all 0.35s ease !important;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.15) !important;
+}
+
+/* HOVER */
+
+.custom-search-input:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 8px 24px rgba(255,99,71,0.35) !important;
+}
+
+/* FOCUS */
+
+.custom-search-input:focus{
+
+    width:300px !important;
+
+    outline:none !important;
+
+    border:none !important;
+
+    background:#fff !important;
+
+    transform:scale(1.03);
+
+    box-shadow:
+        0 0 0 4px rgba(255,99,71,0.18),
+        0 12px 28px rgba(255,99,71,0.35) !important;
+}
+
+/* PLACEHOLDER */
+
+.custom-search-input::placeholder{
+
+    color:#666;
+
+    transition:0.3s;
+}
+
+.custom-search-input:focus::placeholder{
+
+    opacity:0.6;
+
+    letter-spacing:1px;
+}
+
+/* BUTTON */
+
+.search-box button{
+
+    border-radius:40px;
+
+    padding:10px 22px;
+
+    transition:0.3s;
+}
+
+.search-box button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 8px 22px rgba(220,53,69,0.45);
+}
